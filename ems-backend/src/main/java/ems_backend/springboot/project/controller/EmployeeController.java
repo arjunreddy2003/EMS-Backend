@@ -46,6 +46,4 @@ public class EmployeeController {
         employeeService.deleteEmployee(employeeid);
         return ResponseEntity.ok("Employee deleted Successfully");
     }
-
-
 }
